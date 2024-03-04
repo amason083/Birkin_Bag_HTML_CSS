@@ -1,0 +1,47 @@
+body{
+    font-family: 'Zilla Slab';
+}
+
+.Blog-Top{
+    background-image: url(../Images/Hermes_Pallette.png);
+    background-size: cover;
+}
+
+h2, .description{
+    text-align: center;
+    font-size: 40px;
+    padding: 0px;
+}
+
+section{
+    position: relative;
+    margin: 230px;
+}
+
+.description{
+    font-size: 20px;
+}
+
+
+/*  Rollover image styles  */
+.figure {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+}
+.Purse-Hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.Purse-Hover:hover {
+    opacity: 1;
+  }
+
+
+
