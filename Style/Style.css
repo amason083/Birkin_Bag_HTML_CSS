@@ -1,32 +1,71 @@
 body{
     font-family: 'Zilla Slab';
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h1, .Header-description{
+    background-color: white;
+    opacity: .7;
+    border-radius: 4px;
+    width: max-content;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.Header-description{
+    font-size: 25px;
 }
 
 .Blog-Top{
     background-image: url(../Images/Hermes_Pallette.png);
     background-size: cover;
+    border-radius: 7px;
+}
+
+hr{
+    background-image: url(../Images/Hermes_Pallette.png);
+    background-size: cover;
+    height: 6px;
+    padding: 0px;
+    margin: 0;
+}
+
+.logo {
+    background-image: url(../Images/logo_transparent.png);
+    background-size: cover;
 }
 
 h2, .description{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     padding: 0px;
 }
 
 section{
     position: relative;
-    margin: 230px;
+    margin: 200px;
+    padding: 0;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;  
 }
 
 .description{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
 /*  Rollover image styles  */
 .figure {
     position: relative;
-    width: 360px; /* can be omitted for a regular non-lazy image */
+ /* can be omitted for a regular non-lazy image */
     max-width: 100%;
 }
 .Purse-Hover {
